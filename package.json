@@ -1,0 +1,33 @@
+{
+  "name": "clicky-game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
+  },
+  "description": "This is a simple memory challenge game written in React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharloe/React-Clicky-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharloe/React-Clicky-Game/issues"
+  },
+  "homepage": "https://duneoz.github.io/click-it",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
